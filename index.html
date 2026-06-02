@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truy xuất thông tin thiết bị - Vạn Phú Khánh</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased min-h-screen flex flex-col justify-between">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 flex items-center justify-center overflow-hidden rounded-lg bg-gray-50 p-1 border border-gray-100">
+                    <img src="https://dinhvi.khanhhoa.vn/Images/DinhViKhanhHoa/logo.png" alt="Logo Vạn Phú Khánh" class="max-w-full max-h-full object-contain">
+                </div>
+                <div>
+                    <h1 class="text-xs font-bold text-gray-500 uppercase tracking-wider">VẠN PHÚ KHÁNH</h1>
+                    <p class="text-sm font-extrabold text-blue-900 -mt-0.5">TRUY XUẤT THÔNG TIN THIẾT BỊ</p>
+                </div>
+            </div>
+            <span class="bg-blue-50 text-blue-700 text-[10px] px-2 py-0.5 rounded-full font-bold border border-blue-100 flex items-center gap-0.5 shrink-0">
+                <span class="w-1.5 h-1.5 bg-blue-500 rounded-full animate-ping"></span> Hợp chuẩn
+            </span>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-md w-full mx-auto px-4 py-5 space-y-5">
+
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-700 to-blue-600 p-4 text-white flex items-center gap-2">
+                <i class="fa-solid fa-gears text-lg"></i>
+                <h2 class="font-bold text-sm tracking-wider uppercase">Thông số kỹ thuật</h2>
+            </div>
+            
+            <div class="p-4 bg-blue-50/50 border-b border-gray-100">
+                <p class="text-sm text-blue-950 font-medium leading-relaxed">
+                    <i class="fa-solid fa-shield-cat text-blue-600 mr-1.5"></i>
+                    Thiết bị giám sát phù hợp <strong>QCVN06:2024/BCA</strong>.
+                </p>
+            </div>
+
+            <div class="p-4 divide-y divide-gray-100 text-sm">
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-tag w-4 mr-1 text-gray-400"></i>Nhãn hiệu</span>
+                    <span class="font-bold text-gray-900 text-right">CAM4G-02</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-tower-cell w-4 mr-1 text-gray-400"></i>Truyền dữ liệu</span>
+                    <span class="font-medium text-gray-900 text-right">Module 4G LTE</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-location-crosshairs w-4 mr-1 text-gray-400"></i>Định vị</span>
+                    <span class="font-medium text-gray-900 text-right">Module GNSS/GPS</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-video w-4 mr-1 text-gray-400"></i>Số kênh camera</span>
+                    <span class="font-medium text-gray-900 text-right">2 kênh</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-expand w-4 mr-1 text-gray-400"></i>Độ phân giải</span>
+                    <span class="font-medium text-gray-900 text-right">1280x720 / 1920x1080</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-hard-drive w-4 mr-1 text-gray-400"></i>Hỗ trợ bộ nhớ</span>
+                    <span class="font-medium text-gray-900 text-right">SSD / eMMC / SDCard</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-id-card w-4 mr-1 text-gray-400"></i>Đầu đọc thẻ</span>
+                    <span class="font-medium text-emerald-600 text-right font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>Có tích hợp</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-wifi w-4 mr-1 text-gray-400"></i>Trích xuất dữ liệu</span>
+                    <span class="font-medium text-gray-900 text-right">Qua sóng Wifi</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-lightbulb w-4 mr-1 text-gray-400"></i>Trạng thái LED</span>
+                    <span class="font-medium text-gray-900 text-right">Thể hiện hoạt động thiết bị</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-box w-4 mr-1 text-gray-400"></i>Vỏ hộp chất liệu</span>
+                    <span class="font-medium text-gray-900 text-right">Kim Loại</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-bolt w-4 mr-1 text-gray-400"></i>Điện áp danh định</span>
+                    <span class="font-semibold text-amber-700 text-right">12V - 24V</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-certificate w-4 mr-1 text-gray-400"></i>Phù hợp quy chuẩn</span>
+                    <span class="font-medium text-gray-900 text-right text-xs">QCVN 117:2023/BTTTT<br>QCVN 86:2019/BTTTT</span>
+                </div>
+                <div class="py-3 flex justify-between gap-4 items-center">
+                    <span class="text-gray-500 shrink-0"><i class="fa-solid fa-globe w-4 mr-1 text-gray-400"></i>Website quản lý</span>
+                    <a href="https://dinhvi.khanhhoa.vn" target="_blank" class="text-blue-600 font-semibold hover:underline text-right break-all">https://dinhvi.khanhhoa.vn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div class="bg-gradient-to-r from-amber-600 to-amber-500 p-4 text-white flex items-center gap-2">
+                <i class="fa-solid fa-triangle-exclamation text-lg"></i>
+                <h2 class="font-bold text-sm tracking-wider uppercase">Khuyến cáo sử dụng</h2>
+            </div>
+            
+            <div class="p-4 space-y-3 text-sm text-gray-700 leading-relaxed">
+                <div class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-circle-exclamation text-amber-500 mt-1 shrink-0"></i>
+                    <p>Sử dụng đúng điện áp danh định ghi trên thiết bị (12V - 24V).</p>
+                </div>
+                <div class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-cloud-sun text-blue-500 mt-1 shrink-0"></i>
+                    <p>Ăng-ten GNSS phải được lắp đặt ở vị trí nhìn thấy bầu trời để đảm bảo định vị chính xác.</p>
+                </div>
+                <div class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-droplet-slash text-red-500 mt-1 shrink-0"></i>
+                    <p>Không lắp đặt thiết bị tại vị trí có luồng hơi ẩm từ điều hòa nhiệt độ hắt vào.</p>
+                </div>
+                <div class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-recycle text-emerald-600 mt-1 shrink-0"></i>
+                    <p>Trong trường hợp không có nhu cầu sử dụng, vui lòng liên hệ với nhà sản xuất để thực hiện việc thu hồi rác thải điện tử đúng quy định.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 space-y-4 text-sm">
+            <h3 class="text-xs font-bold uppercase text-gray-400 tracking-wider">
+                <i class="fa-solid fa-screwdriver-wrench mr-1"></i> Đơn vị lắp đặt - Bảo hành - Gia hạn
+            </h3>
+            <div class="space-y-1">
+                <p class="font-extrabold text-gray-900 text-lg">Vạn Phú Khánh</p>
+                <p class="text-xs text-gray-500">Hỗ trợ kỹ thuật toàn diện cho thiết bị định vị hành trình.</p>
+            </div>
+            
+            <div class="space-y-2.5 pt-1">
+                <a href="tel:19006451" class="w-full bg-blue-600 text-white py-3 px-4 rounded-xl font-bold text-sm flex items-center justify-between active:scale-[0.98] transition-transform shadow-sm">
+                    <span class="flex items-center gap-2">
+                        <i class="fa-solid fa-headset text-base"></i>
+                        Tổng đài CSKH (24/7)
+                    </span>
+                    <span class="bg-white/20 px-3 py-0.5 rounded-md font-mono tracking-wide">1900 6451</span>
+                </a>
+                
+                <a href="tel:0397081234" class="w-full bg-emerald-600 text-white py-3 px-4 rounded-xl font-bold text-sm flex items-center justify-between active:scale-[0.98] transition-transform shadow-sm">
+                    <span class="flex items-center gap-2">
+                        <i class="fa-solid fa-calendar-plus text-base"></i>
+                        Gia hạn dịch vụ
+                    </span>
+                    <span class="bg-white/20 px-3 py-0.5 rounded-md font-mono tracking-wide">0397 08 12 34</span>
+                </a>
+
+                <a href="tel:0585114114" class="w-full bg-gray-100 text-gray-700 border border-gray-200 py-3 px-4 rounded-xl font-bold text-sm flex items-center justify-between active:scale-[0.98] transition-transform">
+                    <span class="flex items-center gap-2 text-gray-600">
+                        <i class="fa-solid fa-comments text-base text-gray-400"></i>
+                        Góp ý dịch vụ
+                    </span>
+                    <span class="bg-gray-200/70 text-gray-800 px-3 py-0.5 rounded-md font-mono tracking-wide">0585.114.114</span>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-5 px-4 text-xs space-y-1 mt-6">
+        <p class="font-semibold text-gray-300">© 2026 Vạn Phú Khánh</p>
+        <p class="text-[11px] text-gray-500">Hệ thống tra cứu dữ liệu thiết bị giám sát hành trình trực tuyến.</p>
+    </footer>
+
+</body>
+</html>
